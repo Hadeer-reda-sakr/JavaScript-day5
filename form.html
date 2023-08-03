@@ -1,0 +1,84 @@
+/************************************ task 4 form ********************************/
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title> Day 5 </title>
+</head>
+
+<body>
+
+
+    <div>
+        <form action="">
+            <input id="name1" type="text" value="" placeholder="Enter You Name" />
+            <p id="nameE" class="error">name required ,at least 8 char</p>
+
+            <input id="email" type="text" value="" placeholder="Email" />
+            <p id="emailE" class="error">Not vaild enter email like (asdd@gmail.com)</p>
+
+
+            <input id="password" type="text" value="" placeholder="password" />
+            <p id="passwordE" class="error"> at least 8 char</p>
+
+
+            <div id="Gender">
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender"  id="Male">
+                <label for="Male">Male</label>
+
+                <input type="radio" name="gender"  id="Fmale">
+                <label for="Fmale">Female</label>
+
+                 <p id="gendere" class="error"> Select value</p>
+
+            </div>
+
+            <div id="sports">
+                <label for="sports">Sports</label>
+
+                <input type="checkbox" name="sports"  id="football">
+                <label for="football">football</label>
+
+                <input type="checkbox" name="sports"  id="basketball">
+
+                <label for="basketball">basketball</label>
+
+                <input type="checkbox" name="sports"  id="Tennis">
+
+                <label for="Tennis">Tennis</label>
+         
+                <p id="sportE" class="error"> Check at least 2 values</p>
+            </div>
+
+
+            
+                <select name="country" id="countryid">
+                    <option value="" selected disabled>--country</option>
+                    <option value="London">London</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="America">America</option>
+                </select>
+                <p id="countryE" class="error"> choose your country</p>
+                <div class="buttonsContainer">
+                    <button type="submit" id="subBtn">Submit</button>
+                   
+                </div>
+        </form>
+
+
+
+
+
+
+    </div>
+    <script src="./form.js"></script>
+</body>
+
+</html>
